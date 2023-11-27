@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "publish": "npm publish --access public"
+    "deploy": "npm publish --access public"
   },
   "keywords": [
     "min",
