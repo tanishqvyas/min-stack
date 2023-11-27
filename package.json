@@ -4,8 +4,7 @@
   "description": "A simple min stack implementation.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
-    "deploy": "npm publish --access public"
+    "test": "jest --coverage"
   },
   "keywords": [
     "min",
