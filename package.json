@@ -1,6 +1,6 @@
 {
   "name": "@tanishqvyas/min-stack",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple min stack implementation.",
   "main": "index.js",
   "scripts": {
