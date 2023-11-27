@@ -39,6 +39,8 @@ The min stack is particularly useful in scenarios where there is a frequent need
 ## Standard Example
 
 ```javascript
+import MinStack from "@tanishqvyas/min-stack";
+
 const myStack = new MinStack();
 
 myStack.push(1);
@@ -66,6 +68,8 @@ This stack implementation comes with two config options:
 - `cmp`: A comparison function that returns the mimimum of two items. Default value: `Math.min`
 
 ```javascript
+import MinStack from "@tanishqvyas/min-stack";
+
 const myStack = new MinStack({
   limit: 100,
   cmp: (a, b) => {

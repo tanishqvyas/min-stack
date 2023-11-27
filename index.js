@@ -7,10 +7,6 @@ class MinStack {
       ...customConfig,
     };
 
-    if (config === undefined || config === null || typeof config !== "object") {
-      throw new Error("Please pass an appropriate config object");
-    }
-
     if (config.limit === undefined || config.cmp === undefined) {
       throw new Error(
         "Please make sure that the configuration object has the properties limit: number and cmp: a comparison function that returns the minimum of item one and item two"
