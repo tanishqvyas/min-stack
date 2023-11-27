@@ -1,0 +1,16 @@
+{
+  "name": "@tanishqvyas/min-stack",
+  "version": "1.0.0",
+  "description": "A simple min stack implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "min",
+    "stack",
+    "stack"
+  ],
+  "author": "Tanishq Vyas",
+  "license": "MIT"
+}
